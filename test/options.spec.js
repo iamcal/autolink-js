@@ -1,8 +1,8 @@
 describe("Handles options", function(){
 
-	var a = new AutoLink();
-
 	it("Supports tagfill", function(){
+		var a = new AutoLink();
+
 		a.tagFill = '';
 		autolink_harness(a, 'a www.abc.com b', 'a <a href="http://www.abc.com">www.abc.com</a> b');
 
@@ -12,6 +12,7 @@ describe("Handles options", function(){
 
 
 	it("Supports truncatation (with and without auto-titles)", function(){
+		var a = new AutoLink();
 
 		a.maxLength = 10;
 		a.autoTitle = true;
@@ -31,6 +32,7 @@ describe("Handles options", function(){
 
 
 	it("Supports protocol stripping", function(){
+		var a = new AutoLink();
 
 		a.stripProtocols = true;
 		autolink_harness(a, 'a http://foo.com b', 'a <a href="http://foo.com">foo.com</a> b');

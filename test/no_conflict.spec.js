@@ -3,7 +3,7 @@ describe("noConflict mode", function(){
 	it("overwrites the previous class", function(){
 
 		var autolink = new AutoLink();
-		expect(autolink.strip_protocols).toBe(true);
+		expect(autolink.stripProtocols).toBe(true);
 	});
 
 	it("replaces the previous class", function(){
@@ -15,7 +15,7 @@ describe("noConflict mode", function(){
 		expect(autolink2.foo).toBe('bar');
 
 		var autolink3 = new lib_class();
-		expect(autolink3.strip_protocols).toBe(true);
+		expect(autolink3.stripProtocols).toBe(true);
 	});
 });
 

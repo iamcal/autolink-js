@@ -1,0 +1,30 @@
+{
+  "name": "autolink-js",
+  "description": "JS link formatting library",
+  "authors": [
+    "Cal Henderson <cal@iamcal.com>"
+  ],
+  "keywords": [
+    "urls",
+    "url",
+    "links",
+    "link",
+    "autolink"
+  ],
+  "main": "lib/autolink.js",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamcal/autolink-js.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/iamcal/autolink-js",
+  "moduleType": [
+    "globals"
+  ]
+}

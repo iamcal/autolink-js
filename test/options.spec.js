@@ -21,7 +21,7 @@ describe("Handles options", function(){
 
 		a.maxLength = 10;
 		a.autoTitle = false;
-		autolink_harness(a, 'a www.abcdefghijklmnopqrstuvwxyz.com b', 10, '', false,
+		autolink_harness(a, 'a www.abcdefghijklmnopqrstuvwxyz.com b',
 			'a <a href="http://www.abcdefghijklmnopqrstuvwxyz.com">www.abc...</a> b');
 
 		a.maxLength = 10;

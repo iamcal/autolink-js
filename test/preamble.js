@@ -8,3 +8,11 @@ function AutoLink(){
 
 
 // helper functions
+
+function autolink_harness(autolink, input, expected){
+	expect(autolink.link(input)).toBe(expected);
+}
+
+function autolink_email_harness(autolink, input, expected){
+	expect(autolink.linkEmail(input)).toBe(expected);
+}

@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/iamcal/autolink-js/badge.svg)](https://coveralls.io/r/iamcal/autolink-js)
 
 This library helps to detect URLs (and email addresses) in text, and turn them into links.
+It is based on the original PHP version here: https://github.com/iamcal/lib_autolink
 
 
 ## Installation

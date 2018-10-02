@@ -16,6 +16,8 @@ describe("noConflict mode", function(){
 
 		var autolink3 = new lib_class();
 		expect(autolink3.stripProtocols).toBe(true);
+
+		AutoLink = lib_class;
 	});
 });
 

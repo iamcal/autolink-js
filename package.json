@@ -1,5 +1,5 @@
 {
-  "name": "autolink-js",
+  "name": "@iamcal/autolink-js",
   "version": "0.1.0",
   "description": "JS link formatting library",
   "main": "lib/autolink.js",

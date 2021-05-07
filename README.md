@@ -1,6 +1,8 @@
 # autolink-js - JS link formatting library
 
-[![Build Status](https://travis-ci.org/iamcal/autolink-js.svg)](https://travis-ci.org/iamcal/autolink-js)
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@iamcal/autolink-js" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iamcal/autolink-js.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iamcal/autolink-js" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iamcal/autolink-js.svg" alt="NPM downloads" /></a></span>
+[![Build Status](https://github.com/iamcal/autolink-js/actions/workflows/build.yml/badge.svg)](https://github.com/iamcal/autolink-js/actions)
 [![Coverage Status](https://coveralls.io/repos/iamcal/autolink-js/badge.svg)](https://coveralls.io/r/iamcal/autolink-js)
 
 This library helps to detect URLs (and email addresses) in text, and turn them into links.
@@ -9,7 +11,7 @@ It is based on the original PHP version here: https://github.com/iamcal/lib_auto
 
 ## Installation
 
-Either clone the git repo, or `npm install autolink-js`
+Either clone the git repo, or `npm install @iamcal/autolink-js`
 
 
 ## Usage

@@ -39,5 +39,11 @@
   "bugs": {
     "url": "https://github.com/iamcal/autolink-js/issues"
   },
-  "homepage": "https://github.com/iamcal/autolink-js"
+  "homepage": "https://github.com/iamcal/autolink-js",
+  "scripts": {
+    "uglify": "echo \"/* $(npm -s run env echo '$npm_package_name') $(date +%Y-%m-%d) */\" > lib/autolink.min.js; ./node_modules/.bin/uglifyjs -c -m -- lib/autolink.js >> lib/autolink.min.js",
+    "test": "./node_modules/.bin/karma start karma.conf.js --single-run --log-level error",
+    "coverage": "./node_modules/.bin/karma start karma-cover.conf.js --single-run --log-level disable",
+    "build": "npm run uglify && npm run test && npm run coverage"
+  }
 }

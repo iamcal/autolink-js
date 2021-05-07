@@ -21,9 +21,7 @@ jobs:
         node-version: 14
 
     - run: npm install
-
-    - run: npm install -g grunt-cli
-    - run: grunt
+    - run: npm run build
 
     - run: cp ./coverage/*/lcov.info ./coverage/
 
